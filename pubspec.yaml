@@ -30,6 +30,16 @@ dependencies:
 dev_dependencies:
   flutter_lints: ^4.0.0 
 
+flutter:
+  plugin:
+    platforms:
+      android:
+        default_package: quill_html_editor_v2
+      ios:
+        default_package: quill_html_editor_v2
+      web:
+        default_package: quill_html_editor_v2
+
 
   assets:
       - packages/quill_html_editor_v2/assets/camera_roll_icon.png
